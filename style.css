@@ -1,0 +1,153 @@
+body {
+    font-family: Helvetica;
+}
+
+/*------------------------PURPLE NAVIGATION WITH THE ADDRESSES---------------------------*/
+.address-line {
+    background-color: #085a53cc;
+    }
+
+    .address-line > .container {
+        padding-bottom: 1%;
+    }
+
+.address-line > .container > .row >.col-12 > .box > .contactlist {
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    }
+
+    /*why not in one row?*/
+.address-line > .box > .contactlist > .float-right li {
+    display: inline-block;
+    }
+
+/*------------------------WHITE NAVIGATION WITH THE LINKS------------------------------------------*/
+/*funkar ej - kanske mer specific?*/
+.white-box > .white-navbar {
+    display: flex;
+    justify-content: left;
+    color: #580758cc;
+    align-items: center;
+}
+
+/*-------------------------MAIN FOTO---------------------------------------------*/
+
+.blush-screen {
+    height: 80vh; /* den är 80% view height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(university-at-night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blush-screen > .container > .greeting {
+    margin: -11%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    border-radius: 10px;
+    }
+
+/*---------------------------3 BOXES:-----FACULT.----POSTGRAD.----CERTIF.---------------------------------*/
+.container > .row > .col-sm-4> .card > .foto1  {
+    background-image: url(faculties.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: absolute;
+    z-index: -1;*/
+}
+
+/*funkar, men inte fint med transbox: .container > .row > .col-sm-4> .card > .foto1 > .transbox {
+    background-color: rgba(11, 11, 148, 0.5);
+    filter: alpha(opacity=50);
+    }
+*/
+
+
+/*
+.container > .row > .col-sm-4 > .card-title, .card-text, a {
+    position: relative;
+    z-index: 1;
+}*/
+
+/*
+.container > .row > .wrapper1 {
+    background-color: rgba(87, 87, 231, 0.5);
+}*/
+
+.container > .row > .col-sm-4 > .card > .postgraduate {
+    background-image: url(postgraduate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container > .row > .col-sm-4 > .card > .certifications {
+    background-image: url(certifications.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---------------------------GREETINGS FROM THE DEAN-----------------------------------------*/
+.container > .row > .col-sm-12 > .dean {
+    margin: 2% 0% 2% 0%;
+    text-align: center;
+}
+
+.gray-text {
+    color: gray;
+    letter-spacing: 2px;
+}
+
+/*----------------------------TAKE A TOUR WITH VIDEO------------------------------------------------------*/
+.container > .media {
+    background-color: rgba(221, 220, 220, 0.123);
+    margin-bottom: 3%;
+}
+
+.container > .media > .uni-video {
+    margin: 4% 2% 4% 1%;
+}
+
+.container > .media > .media-body {
+    margin: 4% 2% 4% 1%;
+}
+
+/*----------------------------LATEST NEWS-----------------------------------*/
+.container .news h6 {
+    margin-bottom: -3%;
+}
+
+/*funkar ej. ej lila header till den första.*/
+.container .etc > .col-sm-4 > .card > .purple-box > .card-header .bg-info {
+    background-color: #a114a1;
+    color: #ffffff;
+}
+/*funkar ej. ej foto i background*/
+.container .etc > .col-sm-4 > .teachers {
+    background-image: url(it-kar.png);
+}
+/*-----------------------------STATISTICS LINE---------------------------------------------*/
+/*----------------------------- UPCOMING EVENTS------------------------------------------------*/
+/*----------------------------- EVENTS------------------------------------------------*/
+/*-----------------------------BLOG--------------------------------------------------*/
+.blog-headline {
+    padding-top: 3%;
+}
+/*-----------------------------BLOG: 3 POSTS FROM THE BLOG--------------------------------------------------*/
+.blog-posts {
+    padding-bottom: 3%;
+}
+/*-----------------------------BECOME A TEACHER-----------------------------------*/
+.container > .card .teacher {
+    padding: 3% 0% 3% 0%;
+}
+/*------------------------------STUDENT'S FEEDBACK---------------------------------*/
+.feedback > .container {
+    padding: 1% 0% 1% 0%;
+}
+/*-------------------------------FOOTER----------------------------------------*/
+.black-box {
+    padding: 3% 0% 3% 0%;
+}
